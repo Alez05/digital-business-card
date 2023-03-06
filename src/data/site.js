@@ -5,7 +5,7 @@ export const siteData = [
     email: 'cercel.alexandru436@gmail.com',
   },
   {
-    email: 'Email',
+    emailbtn: 'Email',
     linkedln: 'Linkedln',
   },
   {

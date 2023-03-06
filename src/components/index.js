@@ -3,4 +3,5 @@ export { Background } from './background';
 export { Themes } from './colors';
 export { Digital } from './digital';
 export { Header } from './header';
-export { Text } from './text';
+export { Text, Job } from './text';
+export { Button } from './buttons';

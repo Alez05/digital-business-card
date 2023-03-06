@@ -10,6 +10,10 @@ const job = siteData.map((siteData) => {
   return siteData.job;
 });
 
+const email = siteData.map((siteData) => {
+  return siteData.email;
+});
+
 const Text = ({ getJob, getName, Email, children }) => {
   return (
     <>
@@ -17,10 +21,14 @@ const Text = ({ getJob, getName, Email, children }) => {
         {children}
         {name}
       </S.Text>
-      {/* <S.Text getJob={getJob}>
+      <S.Job getJob={getJob}>
         {children}
         {job}
-      </S.Text> */}
+      </S.Job>
+      <S.Mail Email={Email}>
+        {children}
+        {email}
+      </S.Mail>
     </>
   );
 };

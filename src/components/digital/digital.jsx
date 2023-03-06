@@ -1,4 +1,4 @@
-import { Background, Global, Themes, Header, Text } from '..';
+import { Background, Global, Themes, Header, Text, Button } from '..';
 import React from 'react';
 
 const Digital = () => {
@@ -6,9 +6,11 @@ const Digital = () => {
     <>
       <Themes>
         <Global />
-        <Background />
-        <Header />
-        <Text />
+        <Background>
+          <Header />
+          <Text />
+          <Button />
+        </Background>
       </Themes>
     </>
   );
