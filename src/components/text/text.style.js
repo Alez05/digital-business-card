@@ -34,7 +34,7 @@ const Email = css`
   justify-content: center;
   width: 100%;
   height: 18px;
-  top: 440px;
+  top: 445px;
   font-weight: 400;
   font-size: 0.6rem;
   line-height: 150%;
