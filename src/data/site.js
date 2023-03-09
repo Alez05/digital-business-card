@@ -10,10 +10,11 @@ export const siteData = [
   },
   {
     about: 'About',
-    text: 'I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.',
+    text1:
+      'I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.',
   },
   {
     interest: 'Interests',
-    text: 'Travel geek, coffee fanatic, anime, history',
+    text2: 'Travel Geek, Coffee Fanatic, Anime, History, Live Coding.. ',
   },
 ];

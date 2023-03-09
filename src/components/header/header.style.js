@@ -44,7 +44,7 @@ export const Header = styled.div`
   @media screen and (min-width: 1440px) {
     background-image: url('/images/background/profile.jpeg');
     width: 21vw;
-    height: 61vh;
+    height: 58vh;
     background-repeat: no-repeat;
   }
 `;
