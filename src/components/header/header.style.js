@@ -13,9 +13,21 @@ export const Header = styled.div`
   background-repeat: no-repeat;
   border-radius: 10px 10px 10px 10px;
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 600px) {
+    background: url('/images/background/profile.jpeg');
+    min-width: 52vw;
+    height: 315px;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 768px) {
     background-image: url('/images/background/profile.jpeg');
-    min-width: 22vw;
+    min-width: 41vw;
+    height: 315px;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 992px) {
+    background-image: url('/images/background/profile.jpeg');
+    min-width: 32vw;
     height: 315px;
     background-repeat: no-repeat;
   }
@@ -26,21 +38,9 @@ export const Header = styled.div`
     height: 315px;
     background-repeat: no-repeat;
   }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1440px) {
     background-image: url('/images/background/profile.jpeg');
-    min-width: 32vw;
-    height: 315px;
-    background-repeat: no-repeat;
-  }
-  @media screen and (min-width: 768px) {
-    background-image: url('/images/background/profile.jpeg');
-    min-width: 41vw;
-    height: 315px;
-    background-repeat: no-repeat;
-  }
-  @media screen and (min-width: 600px) {
-    background: url('/images/background/profile.jpeg');
-    min-width: 52vw;
+    min-width: 22vw;
     height: 315px;
     background-repeat: no-repeat;
   }
