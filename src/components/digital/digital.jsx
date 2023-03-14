@@ -13,16 +13,15 @@ import React from 'react';
 const Digital = () => {
   return (
     <>
-      <Themes>
-        <Global />
-        <Background>
-          <Header />
-          <Text />
-          <Button />
-          <Body />
-        </Background>
-        <Footer />
-      </Themes>
+      <Global />
+      <Background>
+        <Themes />
+        <Header />
+        <Text />
+        <Button />
+        <Body />
+      </Background>
+      <Footer />
     </>
   );
 };

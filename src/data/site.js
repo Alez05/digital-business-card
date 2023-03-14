@@ -15,6 +15,7 @@ export const siteData = [
   },
   {
     interest: 'Interests',
-    text2: 'Travel Geek, Coffee Fanatic, Anime, History, Live Coding.. ',
+    text2:
+      'Travel Geek, Coffee Fanatic, Anime, History, Code Wars, Live Coding.. ',
   },
 ];
