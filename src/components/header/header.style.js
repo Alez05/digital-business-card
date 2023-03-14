@@ -4,7 +4,7 @@ export const Header = styled.div`
   position: absolute;
   display: flex;
   justify-content: center;
-  width: 80vw;
+  width: 315px;
   height: 315px;
   top: 44px;
   background: url('/images/background/profile.jpeg');
@@ -12,12 +12,12 @@ export const Header = styled.div`
   border-radius: 10px 10px 10px 10px;
   //phone
 
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     background: url('/images/background/profile.jpeg');
     width: 80vw;
     height: 315px;
     background-repeat: no-repeat;
-  }
+  } */
   //phone x2
   @media screen and (min-width: 600px) {
     background: url('/images/background/profile.jpeg');
