@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
-import { css } from '@emotion/react';
 
-const title1 = css`
+export const title1 = styled.h1`
   position: absolute;
   display: flex;
   justify-content: flex-start;
@@ -14,7 +13,7 @@ const title1 = css`
   color: #f5f5f5;
 `;
 
-const text1 = css`
+export const text1 = styled.h2`
   position: absolute;
   display: flex;
   justify-content: flex-start;
@@ -27,7 +26,7 @@ const text1 = css`
   color: #dcdcdc;
 `;
 
-const title2 = css`
+export const title2 = styled.h1`
   position: absolute;
   display: flex;
   justify-content: flex-start;
@@ -40,7 +39,7 @@ const title2 = css`
   color: #f5f5f5;
 `;
 
-const text2 = css`
+export const text2 = styled.h2`
   position: absolute;
   display: flex;
   justify-content: flex-start;
@@ -56,17 +55,4 @@ const text2 = css`
 export const Nice = styled.div`
   display: flex;
   justify-content: center;
-`;
-
-export const Title1 = styled.h1`
-  ${title1}
-`;
-export const Title2 = styled.h1`
-  ${title2}
-`;
-export const Text1 = styled.h2`
-  ${text1}
-`;
-export const Text2 = styled.h2`
-  ${text2}
 `;
